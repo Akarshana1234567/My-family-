@@ -1,0 +1,48 @@
+<html>
+    <p>
+       My family members?
+        <h4 id="declaration_of_arrays"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+     First person?
+        <h4 id="access_first_element"> 
+        </h4>
+    </p>
+<hr>
+    <p>
+      What is the father's name?
+        <h4 id="access_second_element"> 
+        </h4>
+    </p>
+
+
+    <hr>
+    <p>
+        What is my name?
+           <h4 id="access_third_element"> 
+           </h4>
+       </p>
+    <script>
+    //How to declare the arrays ? the id to be refer for innerHTML is declaration_of_arrays
+    var family=["Pravitha","Sathish","Akarshana"];
+    console.log(family);
+    document.getElementById("declaration_of_arrays").innerHTML=family;
+   //How to fetch the first element of the array ? the id to be refer for innerHTML is access_first_element
+var first_person=family[0];
+console.log(first_person);
+document.getElementById("access_first_element").innerHTML=first_person;
+//How to fetch the second element of the array ? the id to be refer for innerHTML is access_second_element
+var second_person=family[1];
+console.log(second_person);
+document.getElementById("access_second_element").innerHTML=second_person;
+//How to fetch the third element of the array ? the id to be refer for innerHTML is access_second_element
+var third_person=family[2];
+console.log(third_person);
+document.getElementById("access_third_element").innerHTML=third_person;
+
+    </script>
+   
+   
+
